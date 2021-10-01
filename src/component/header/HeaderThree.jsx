@@ -6,7 +6,7 @@ import Scrollspy from "react-scrollspy";
 
 const SocialShare = [
   { Social: <FaPhone />, link: "tel:+1-415-368-8344" },
-  { Social: <MdEmail />, link: "Lawrence Christopher Hau@Gmail" },
+  { Social: <MdEmail />, link: "mailto:LawrenceChristopherHau@Gmail.com" },
   { Social: <FaGit />, link: "https://github.com/LawrenceHau/" },
 ];
 class HeaderThree extends Component {

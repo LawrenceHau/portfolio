@@ -25,18 +25,21 @@ const PortfolioListContent = [
     category: "Development",
     title: "Porto",
     description: "Porto was created for everyone to showcase their work.",
+    url: "http://porto-app.herokuapp.com/",
   },
   {
     image: Portfolio_image2,
     category: "Development",
     title: "Trivia Game",
     description: "Designed and developed Trivia Game with cool features.",
+    url: "https://lawrencehau.github.io/TriviaGame/",
   },
   {
     image: Portfolio_image3,
     category: "Development",
     title: "Random Recipe Generator",
     description: "Search for a drink or generate random drink with recipe.",
+    url: "https://cocktail-db-generator.herokuapp.com/",
   },
 ];
 
@@ -69,7 +72,11 @@ class PortfolioList extends Component {
                   </div>
                 </div>
               </div>
-              <Link className="transparent_link" to="/portfolio-details"></Link>
+              <a
+                className="transparent_link"
+                target="_blank"
+                href={value.url}
+              ></a>
             </div>
           </div>
         ))}
