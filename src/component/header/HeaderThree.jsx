@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MdEmail } from "react-icons/md";
-import { FaPhone, FaGit } from "react-icons/fa";
+import { FaPhone, FaGit, FaLinkedin } from "react-icons/fa";
 import { FiX, FiMenu } from "react-icons/fi";
 import Scrollspy from "react-scrollspy";
 
@@ -8,6 +8,10 @@ const SocialShare = [
   { Social: <FaPhone />, link: "tel:+1-415-368-8344" },
   { Social: <MdEmail />, link: "mailto:LawrenceChristopherHau@Gmail.com" },
   { Social: <FaGit />, link: "https://github.com/LawrenceHau/" },
+  {
+    Social: <FaLinkedin />,
+    link: "https://www.linkedin.com/in/lawrencechristopherhau/",
+  },
 ];
 class HeaderThree extends Component {
   constructor(props) {

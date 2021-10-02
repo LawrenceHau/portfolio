@@ -17,6 +17,8 @@ const SlideList = [
     description: "",
     buttonText: "Download Resume",
     buttonLink: "/Resume.pdf",
+    buttonText2: "View Resume",
+    buttonLink2: "/Resume.pdf",
   },
 ];
 const PortfolioLanding = () => {
@@ -58,13 +60,26 @@ const PortfolioLanding = () => {
                         ""
                       )}
                       {value.buttonText ? (
-                        <div className="slide-btn mt--30">
+                        <div className="slide-btn mt--30 d-inline">
                           <a
                             download
-                            className="btn-default btn-border btn-opacity"
+                            className="btn-default btn-border btn-opacity "
                             href={`${value.buttonLink}`}
                           >
                             {value.buttonText}
+                          </a>
+                        </div>
+                      ) : (
+                        ""
+                      )}
+                      {value.buttonText2 ? (
+                        <div className="slide-btn mt--30 d-inline ml-3 ">
+                          <a
+                            target="_blank"
+                            className="btn-default btn-border btn-opacity mt-3 mt-md-0"
+                            href={`${value.buttonLink2}`}
+                          >
+                            {value.buttonText2}
                           </a>
                         </div>
                       ) : (

@@ -130,6 +130,20 @@ class TabsTwo extends Component {
                             </li>
                           </ul>
                         </li>
+                      </ul>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="single-tab-content">
+                      <ul>
+                        <li>
+                          <a href="#">
+                            High School Degree
+                            <span> - City Arts and Technology High School</span>
+                          </a>{" "}
+                          2010 - 2014
+                        </li>
                         <hr className="split-hr" />
                         <li>
                           <a href="#">
@@ -149,20 +163,6 @@ class TabsTwo extends Component {
                             <li>Porto the Portfolio Application</li>
                             <li>TBD</li>
                           </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </TabPanel>
-
-                  <TabPanel>
-                    <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            High School Degree
-                            <span> - City Arts and Technology High School</span>
-                          </a>{" "}
-                          2010
                         </li>
                       </ul>
                     </div>
